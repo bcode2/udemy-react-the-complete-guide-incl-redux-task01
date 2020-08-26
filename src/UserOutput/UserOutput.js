@@ -1,5 +1,5 @@
 import React from "react";
-import './UserInput.css';
+import './UserOutput.css';
 const serOutput=( props )=>{
     return  (
         <div className="UserOutput">
