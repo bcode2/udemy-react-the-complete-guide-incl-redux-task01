@@ -3,7 +3,10 @@ import './UserInput.css';
 const userInput=( props )=>{
     return  (
         <div className="UserInput">
-<button></button>
+            <input
+                type="text"
+                onChange={props.newName}
+                value={props.currentName} />
         </div>
     )
 }
