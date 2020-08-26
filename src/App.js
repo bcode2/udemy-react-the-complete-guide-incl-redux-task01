@@ -13,13 +13,16 @@ class App extends Component {
         }
     render() {
 
-
+        const style = {
+            border: '6px solid yellow',
+            margin:'auto',
+            maxWidth:"500 px"
+        };
         const changeUserName=()=>{
         }
-        const style = {
-            border: '6px solid yellow'
-        };
+
         return (
+
             <div className="App">
                 <ol style={style}>
                     <li >Create TWO new components: UserInput and UserOutput</li>
