@@ -3,7 +3,9 @@ import './UserOutput.css';
 const serOutput=( props )=>{
     return  (
         <div className="UserOutput">
+            <p></p>
+            <p></p>
         </div>
     )
 }
-export default  UserOutput;
+export default  userOutput;
